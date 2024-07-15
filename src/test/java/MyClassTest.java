@@ -27,7 +27,7 @@ public class MyClassTest {
 
        		 // Set path to Chrome binary
 		ChromeOptions options = new ChromeOptions();
-        	options.setBinary("/usr/bin/google-chrome");
+        	//options.setBinary("/usr/bin/google-chrome");
         	options.addArguments("--headless"); // Run Chrome in headless mode
 		ChromeDriver driver = new ChromeDriver(options);	
 		driver.manage().window().maximize();
